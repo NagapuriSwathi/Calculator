@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Calculator To perform Addition, Subtraction, Multiplication and Division" />
+    <meta name="keywords" content="Calculator, Addition, Subtraction, Multiplication, Division">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <header>
+        <h1>Calculator</h1>
+    </header>
+
+    <main>
+        <section>
+            <form method="post">
+                <label for="number1">Enter Number : </label> 
+                <input type="number" name="number1" id="number1" title="number1">
+
+                <br><br>
+
+                <label for="number1">Enter Number : </label>
+                <input type="number" name="number2" id="number2" title="number2">
+
+                <br><br>
+
+                <input type="radio" name="Calculator" id="Addition" title="Addition">
+                <label for="Addition">Addition</label>
+
+                <br><br>
+
+                
+                <input type="radio" name="Calculator" id="Subtraction" title="Subtraction">
+                <label for="Subtraction">Subtraction</label>
+
+                <br><br>
+
+                
+                <input type="radio" name="Calculator" id="Multiplication" title="Multiplication">
+                <label for="Multiplication">Multiplication</label>
+
+                <br><br>
+
+                
+                <input type="radio" name="Calculator" id="Division" title="Division">
+                <label for="Division">Division</label>
+
+                <br><br>
+
+                <input type="button" value="Calculate" onclick="calculate()" />
+            </form>
+        </section>
+
+        <section>  
+            <h1 id="calculation-result"></h1>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

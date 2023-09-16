@@ -1,0 +1,66 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+body{
+    background-image: radial-gradient(rgb(255, 153, 0),rgb(255, 252, 192));
+}
+
+header h1, #calculation-result{
+    width: 80%;
+    background-color: rgb(169, 24, 24);
+    color: #FFFFFF;
+    margin: 1rem auto;
+    text-align: center;
+    font-size: 3rem;
+}
+
+
+main section form{
+    width: 80%;
+    background-color: transparent;
+    color: rgb(169, 24, 24);
+    margin: auto;
+    border: 0.2rem groove #FFFFFF;
+    margin: auto;
+    padding: 3rem;
+    font-weight: bolder;
+}
+
+main section form label{
+    font-size: 1.4rem;
+}
+
+main section form input[type="number"]{
+    border: 0.2rem ridge #FFFFFF;
+    width: 60%;
+    height: 2.2rem;
+    border-radius: 0.2rem;
+    padding: 2%;
+    font-size: 1.2rem;
+}
+
+main section form input[type="button"]{
+    background-color: rgb(169, 24, 24);
+    border: 0.2rem ridge white;
+    width: 60%;
+    height: 4rem;
+    border-radius: 0.2rem;
+    font-size: 1.6rem;
+    color: white;
+    font-weight: bolder;
+}
+
+main section form input[type="button"]:hover{
+    background-color: white;
+    color: rgb(169, 24, 24);
+}
+
+#calculation-result{
+    display: none;
+    padding: 0.3rem;
+    border: 0.2rem ridge white
+}
