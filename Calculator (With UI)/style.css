@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    background-color: #222222;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main{
+    max-width: 40rem;
+    margin: auto;
+    padding-top: 3rem;
+    height: 100vh;
+}
+
+#calculator-heading{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 4rem;
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+    border-bottom: 0.2rem groove #FFFFFF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#calculator-application{
+    width: 100%;
+    box-shadow: 0rem 0rem 0.2rem 0.4rem #FFFFFF inset;
+    border-radius: 0.1rem;
+}
+
+.calculator-input-output{
+    outline: none;
+    border: 0.2rem ridge #222222;
+    box-shadow: 0rem 0rem 0.2rem 0.4rem #FFFFFF inset;
+    color: #D92121;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#calculator-display input{   
+    width: 100%;
+    padding: 1.2rem;
+    text-align: right;
+    font-size: 6rem;
+    font-weight: 900;
+    border-bottom: none;
+    background-color: #222222;
+    color: #cdd921;
+}
+
+#calculator-input-buttons{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(2rem, 1fr));
+}
+
+button#allClear{
+    grid-column: 1/3;
+}
+
+button#equal{
+    grid-column: 3/5;
+}
+
+#calculator-input-buttons button{
+    padding: 2rem;
+    font-size: 1.8rem;
+    font-weight: 900;
+    box-shadow: 0rem 0rem 0.2rem 0.6rem #222222 inset;
+}
+
