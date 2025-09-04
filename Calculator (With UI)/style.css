@@ -74,5 +74,7 @@ button#equal{
     font-size: 1.8rem;
     font-weight: 900;
     box-shadow: 0rem 0rem 0.2rem 0.6rem #222222 inset;
+    cursor: pointer;
 }
+
 
